@@ -1,0 +1,8 @@
+C:\Users\josem\source\repos\Prog3\Herencia\PrimerosEjemplos\Ejemplo1\bin\Debug\Ejemplo1.exe.config
+C:\Users\josem\source\repos\Prog3\Herencia\PrimerosEjemplos\Ejemplo1\bin\Debug\Ejemplo1.exe
+C:\Users\josem\source\repos\Prog3\Herencia\PrimerosEjemplos\Ejemplo1\bin\Debug\Ejemplo1.pdb
+C:\Users\josem\source\repos\Prog3\Herencia\PrimerosEjemplos\Ejemplo1\obj\Debug\Ejemplo1.csproj.AssemblyReference.cache
+C:\Users\josem\source\repos\Prog3\Herencia\PrimerosEjemplos\Ejemplo1\obj\Debug\Ejemplo1.csproj.SuggestedBindingRedirects.cache
+C:\Users\josem\source\repos\Prog3\Herencia\PrimerosEjemplos\Ejemplo1\obj\Debug\Ejemplo1.csproj.CoreCompileInputs.cache
+C:\Users\josem\source\repos\Prog3\Herencia\PrimerosEjemplos\Ejemplo1\obj\Debug\Ejemplo1.exe
+C:\Users\josem\source\repos\Prog3\Herencia\PrimerosEjemplos\Ejemplo1\obj\Debug\Ejemplo1.pdb

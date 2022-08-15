@@ -1,0 +1,8 @@
+C:\Users\josem\source\repos\Prog3\Herencia\herencia\herencia\bin\Debug\herencia.exe.config
+C:\Users\josem\source\repos\Prog3\Herencia\herencia\herencia\bin\Debug\herencia.exe
+C:\Users\josem\source\repos\Prog3\Herencia\herencia\herencia\bin\Debug\herencia.pdb
+C:\Users\josem\source\repos\Prog3\Herencia\herencia\herencia\obj\Debug\herencia.csproj.AssemblyReference.cache
+C:\Users\josem\source\repos\Prog3\Herencia\herencia\herencia\obj\Debug\herencia.csproj.SuggestedBindingRedirects.cache
+C:\Users\josem\source\repos\Prog3\Herencia\herencia\herencia\obj\Debug\herencia.csproj.CoreCompileInputs.cache
+C:\Users\josem\source\repos\Prog3\Herencia\herencia\herencia\obj\Debug\herencia.exe
+C:\Users\josem\source\repos\Prog3\Herencia\herencia\herencia\obj\Debug\herencia.pdb
