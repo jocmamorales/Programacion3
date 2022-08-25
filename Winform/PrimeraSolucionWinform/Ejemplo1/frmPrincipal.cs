@@ -37,7 +37,10 @@ namespace Ejemplo1
             foreach (var item in Application.OpenForms)
             {
                 if (item.GetType() == typeof(Form1)) //COMPARO OBJETO
+                {
+                    MessageBox.Show("Ya existe una ventana abierta");
                     return;
+                }
             }
 
             Form1 ventana = new Form1();
@@ -55,6 +58,22 @@ namespace Ejemplo1
             Form1 ventana = new Form1();
             ventana.MdiParent = this;
             ventana.Show();
+        }
+
+        private void calendarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            foreach (var item in Application.OpenForms)
+            {
+                if (item.GetType() == typeof(FormFecha)) //COMPARO OBJETO
+                {
+                    MessageBox.Show("Ya existe una ventana abierta");
+                    return;
+                }
+            }
+
+            FormFecha ventana1 = new FormFecha();
+            ventana1.MdiParent = this;
+            ventana1.Show();
         }
     }
 }

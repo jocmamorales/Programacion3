@@ -20,7 +20,7 @@ namespace Ejemplo1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("Te doy la bienvenida");
+            //MessageBox.Show("Te doy la bienvenida");
 
         }
 
@@ -33,7 +33,7 @@ namespace Ejemplo1
 
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
         {
-            MessageBox.Show("Adios");
+            //MessageBox.Show("Adios");
         }
 
         private void textBoxNombre_TextChanged(object sender, EventArgs e)
@@ -68,7 +68,11 @@ namespace Ejemplo1
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            cboColorFavorito.Items.Add("Rojo");
+            cboColorFavorito.Items.Add("Verde");
+            cboColorFavorito.Items.Add("Azul");
+            cboColorFavorito.Items.Add("Amarillo");
+            cboColorFavorito.Items.Add("Negro");
         }
     }
 }

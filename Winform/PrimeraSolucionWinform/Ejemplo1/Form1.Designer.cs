@@ -42,8 +42,8 @@
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.numUpDownEdad = new System.Windows.Forms.NumericUpDown();
             this.labEdad = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.cboColorFavorito = new System.Windows.Forms.ComboBox();
+            this.labelColor = new System.Windows.Forms.Label();
             this.gBoxEstCivil = new System.Windows.Forms.GroupBox();
             this.ckboxSoltero = new System.Windows.Forms.CheckBox();
             this.cboxCasado = new System.Windows.Forms.CheckBox();
@@ -64,7 +64,7 @@
             this.botonAgregar.Name = "botonAgregar";
             this.botonAgregar.Size = new System.Drawing.Size(88, 25);
             this.botonAgregar.TabIndex = 7;
-            this.botonAgregar.Text = "Agregar";
+            this.botonAgregar.Text = "&Agregar";
             this.botonAgregar.UseVisualStyleBackColor = false;
             this.botonAgregar.Click += new System.EventHandler(this.boton1_Click);
             // 
@@ -193,24 +193,24 @@
             this.labEdad.Text = "Edad";
             this.labEdad.Click += new System.EventHandler(this.label2_Click_1);
             // 
-            // comboBox1
+            // cboColorFavorito
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(132, 169);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(214, 21);
-            this.comboBox1.TabIndex = 4;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.cboColorFavorito.FormattingEnabled = true;
+            this.cboColorFavorito.Location = new System.Drawing.Point(132, 169);
+            this.cboColorFavorito.Name = "cboColorFavorito";
+            this.cboColorFavorito.Size = new System.Drawing.Size(214, 21);
+            this.cboColorFavorito.TabIndex = 4;
+            this.cboColorFavorito.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // label2
+            // labelColor
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(48, 172);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 13);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Color Favorito";
-            this.label2.Click += new System.EventHandler(this.label2_Click_2);
+            this.labelColor.AutoSize = true;
+            this.labelColor.Location = new System.Drawing.Point(48, 172);
+            this.labelColor.Name = "labelColor";
+            this.labelColor.Size = new System.Drawing.Size(72, 13);
+            this.labelColor.TabIndex = 4;
+            this.labelColor.Text = "Color Favorito";
+            this.labelColor.Click += new System.EventHandler(this.label2_Click_2);
             // 
             // gBoxEstCivil
             // 
@@ -271,8 +271,8 @@
             this.ClientSize = new System.Drawing.Size(406, 464);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.gBoxEstCivil);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.labelColor);
+            this.Controls.Add(this.cboColorFavorito);
             this.Controls.Add(this.labEdad);
             this.Controls.Add(this.numUpDownEdad);
             this.Controls.Add(this.flowLayoutPanel1);
@@ -316,8 +316,8 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.NumericUpDown numUpDownEdad;
         private System.Windows.Forms.Label labEdad;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ComboBox cboColorFavorito;
+        private System.Windows.Forms.Label labelColor;
         private System.Windows.Forms.GroupBox gBoxEstCivil;
         private System.Windows.Forms.CheckBox cboxViudo;
         private System.Windows.Forms.CheckBox cboxCasado;

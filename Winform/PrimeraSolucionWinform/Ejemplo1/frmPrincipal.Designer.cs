@@ -42,6 +42,9 @@
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
+            this.acercaDeEsteProgramaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.calendarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -63,45 +66,52 @@
             // 
             this.ArchivotoolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.abrirToolStripMenuItem,
-            this.guardarToolStripMenuItem});
+            this.guardarToolStripMenuItem,
+            this.salirToolStripMenuItem});
             this.ArchivotoolStripMenuItem1.Name = "ArchivotoolStripMenuItem1";
             this.ArchivotoolStripMenuItem1.Size = new System.Drawing.Size(60, 20);
-            this.ArchivotoolStripMenuItem1.Text = "Archivo";
+            this.ArchivotoolStripMenuItem1.Text = "&Archivo";
             this.ArchivotoolStripMenuItem1.Click += new System.EventHandler(this.ArchivotoolStripMenuItem1_Click);
             // 
             // perfilPersonaToolStripMenuItem
             // 
             this.perfilPersonaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.agregarToolStripMenuItem});
+            this.agregarToolStripMenuItem,
+            this.calendarioToolStripMenuItem});
             this.perfilPersonaToolStripMenuItem.Name = "perfilPersonaToolStripMenuItem";
             this.perfilPersonaToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
-            this.perfilPersonaToolStripMenuItem.Text = "Opciones";
+            this.perfilPersonaToolStripMenuItem.Text = "Opcione&s";
             this.perfilPersonaToolStripMenuItem.Click += new System.EventHandler(this.perfilPersonaToolStripMenuItem_Click);
             // 
             // agregarToolStripMenuItem
             // 
             this.agregarToolStripMenuItem.Name = "agregarToolStripMenuItem";
-            this.agregarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.agregarToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
+            this.agregarToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.agregarToolStripMenuItem.Text = "Perfil Persona";
             this.agregarToolStripMenuItem.Click += new System.EventHandler(this.agregarToolStripMenuItem_Click);
             // 
             // abrirToolStripMenuItem
             // 
             this.abrirToolStripMenuItem.Name = "abrirToolStripMenuItem";
+            this.abrirToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.A)));
             this.abrirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.abrirToolStripMenuItem.Text = "Abrir";
             // 
             // guardarToolStripMenuItem
             // 
             this.guardarToolStripMenuItem.Name = "guardarToolStripMenuItem";
+            this.guardarToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.G)));
             this.guardarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.guardarToolStripMenuItem.Text = "Guardar";
             // 
             // aboutToolStripMenuItem
             // 
+            this.aboutToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.acercaDeEsteProgramaToolStripMenuItem});
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
-            this.aboutToolStripMenuItem.Text = "About";
+            this.aboutToolStripMenuItem.Text = "Abo&ut";
             // 
             // toolStrip1
             // 
@@ -160,6 +170,25 @@
             this.toolStripButton4.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton4.Text = "toolStripButton4";
             // 
+            // acercaDeEsteProgramaToolStripMenuItem
+            // 
+            this.acercaDeEsteProgramaToolStripMenuItem.Name = "acercaDeEsteProgramaToolStripMenuItem";
+            this.acercaDeEsteProgramaToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
+            this.acercaDeEsteProgramaToolStripMenuItem.Text = "Acerca de este Programa";
+            // 
+            // salirToolStripMenuItem
+            // 
+            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.salirToolStripMenuItem.Text = "Salir";
+            // 
+            // calendarioToolStripMenuItem
+            // 
+            this.calendarioToolStripMenuItem.Name = "calendarioToolStripMenuItem";
+            this.calendarioToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
+            this.calendarioToolStripMenuItem.Text = "Calendario";
+            this.calendarioToolStripMenuItem.Click += new System.EventHandler(this.calendarioToolStripMenuItem_Click);
+            // 
             // frmVPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -198,5 +227,8 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripButton toolStripButton3;
         private System.Windows.Forms.ToolStripButton toolStripButton4;
+        private System.Windows.Forms.ToolStripMenuItem acercaDeEsteProgramaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem calendarioToolStripMenuItem;
     }
 }
