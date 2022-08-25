@@ -60,5 +60,15 @@ namespace Ejemplo1
         {
 
         }
+
+        private void label2_Click_2(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
